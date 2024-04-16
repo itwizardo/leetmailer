@@ -5,8 +5,11 @@
 ![image](https://github.com/itwizardo/leetmailer/assets/32465924/4447fd50-fbc6-402d-acf6-0e32e9016dd6)
 Yes, mailers differ not only in the convenience of the interface. The inbox rate depends on their internal structure.
 
+For my mailer I chose Python and its smtplib library. It is popular among white-label sites and sends many clean emails, but (like Go and Javascript) is rarely used for sending spam.
+
 Depending on the programming language in which the mailers are written, they use different libraries to work with SMTP or, without the use of third-party libraries, they communicate with the SMTP server through raw sockets, trying to imitate popular email clients ( but usually they fail in this task with a bang).
 
+It is also designed to run on Linux or MacOS. I did not add socks proxy support to it, because if a proxy is used, the percentage of letters that end up in the inbox will depend on the purity of the proxy IP address, and not the purity of the IP server on which we ran our smtp checker and checked for delivery to inbox our smtp servers.
 
 ### LeetMailer
 
