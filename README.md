@@ -9,6 +9,13 @@ LeetMailer is a powerful tool for sending personalized emails in bulk. Below are
 
 #### Configuration Files
 
+Make sure you edit the dummy.config files for the subject from mail ect the mails_to_verify function will send test emails to for each new smtp server used. Used to carry inbox-rate statistics.
+
+In the working directory from where the mailer will be launched, you can have as many .config-files as you like. The mailer will choose to use the config that was last edited.
+
+
+#### Email list
+
 If in your list of mails, in addition to the mails themselves, there is additional data (for example, name, company, position, telephone numbers, etc.), with any separator (for example, ,or |or ;or :), then the recipient's email is automatically extracted from each line of your mail file , regardless of its position among other data. The mailer will also automatically load the remaining data from each row, and each column will be available in macros {{1}}, {{2}}, {{3}}and so on (starting with number 1), depending on the number of columns.
 
 - **emaillist.txt:** This file should contain a list of email addresses along with corresponding first and last names, separated by commas. For example:
