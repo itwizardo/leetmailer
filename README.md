@@ -1,3 +1,6 @@
+![image](https://github.com/itwizardo/leetmailer/assets/32465924/3f15e197-9e94-4583-be31-38225051671b)
+
+
 ### LeetMailer
 
 LeetMailer is a powerful tool for sending personalized emails in bulk. Below are instructions on how to set up and use LeetMailer effectively:
