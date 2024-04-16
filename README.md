@@ -28,16 +28,15 @@ Ensure you customize the following files according to your requirements:
 
 In the `letter.html` template, you can utilize the following macros:
 
-- `{{email}}`
-- `{{email_b64}}`
-- `{{email_user}}`
-- `{{email_host}}`
-- `{{email_l2_domain}}`
-- `{{smtp_user}}`: SMTP user.
-- `{{smtp_host}}`: SMTP host.
+- `{{email}}` recipient's mail.
+- `{{email_b64}}`recipient's email, encoded in base64. Useful when you pass it as a parameter to your marketing.
+- `{{email_user}}` a fragment of the recipient's mail that comes before @. For example, for the mailbox john@apple.com it will be John (the first letter will be replaced with a capital one). Useful if we don’t have the recipient’s name in the database, but need to contact him by name or nickname.
+- `{{email_host}}` recipient's email domain. In our example this is apple.com .
+- `{{email_l2_domain}}` in our case it’s just apple . Useful if you want to put in the letter the name of the company where the recipient of the letter works.
+- `{{smtp_user}}`: user of the smtp server used to send a specific letter. It's useful to include it in the From field to make the recipient less suspicious.
+- `{{smtp_host}}`: smtp server domain. It is useful to indicate it as the sending company.
 - `{{url}}`: Use this to insert a button link. Links specified in `redirect.txt` will change every 100th message.
-- `{{random_Fname}}`: Generates a random first name.
-- `{{random_Lname}}`: Generates a random last name.
+- `{{random_name}}`: Random female first and last name. Useful if you need a random sender name.
 - `{{random_fname}}`: Picks a random first name.
 - `{{random_lname}}`: Picks a random last name.
 
