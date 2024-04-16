@@ -27,8 +27,6 @@ If in your list of mails, in addition to the mails themselves, there is addition
 
 - **letter.html:** Customize the email template here. You can use placeholders like `{{2}}` for the first name and `{{3}}` for the last name.
 
-- **dummy.config:** Here, you can configure the email subject, sender details, and other settings.
-
 ---
 
 #### Macros
