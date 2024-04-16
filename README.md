@@ -18,6 +18,10 @@ Depending on the programming language in which the mailers are written, they use
 
 It is also designed to run on Linux or MacOS. I did not add socks proxy support to it, because if a proxy is used, the percentage of letters that end up in the inbox will depend on the purity of the proxy IP address, and not the purity of the IP server on which we ran our smtp checker and checked for delivery to inbox our smtp servers.
 
+The mailer runs at 40 threads, which is enough to send 100,000 emails without heavy attachments in ~30 minutes. Without any problems, you can run it with 100 threads, but then it will simply be inconvenient to control them, because they won't fit on the screen.
+
+Smtp servers will be disabled as they reach the daily limits of sent letters. And the mailer itself will stop when it finishes sending or if there are no more available smtp servers. If you want to forcefully stop it, press [Ctrl]+[C]on the keyboard.
+
 Key Features:
 
 - IP blacklist checker
