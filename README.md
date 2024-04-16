@@ -26,7 +26,7 @@ Ensure you customize the following files according to your requirements:
 
 #### Macros
 
-In the `letter.html` template, you can utilize the following macros:
+In the `letter.html` template or the dummy.config, you can utilize the following macros:
 
 - `{{email}}` recipient's mail.
 - `{{email_b64}}`recipient's email, encoded in base64. Useful when you pass it as a parameter to your marketing.
