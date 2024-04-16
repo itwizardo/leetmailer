@@ -23,7 +23,7 @@ If in your list of mails, in addition to the mails themselves, there is addition
   example@gmail.com,john,doe
   ```
 
-- **smtp.txt:** This file holds SMTP configuration details.
+- **smtp.txt:** This file holds SMTP configuration details. example:server|port|username|password" smtp will rotate
 
 - **letter.html:** Customize the email template here. You can use placeholders like `{{2}}` for the first name and `{{3}}` for the last name.
 
