@@ -94,8 +94,6 @@ In the `letter.html` template or the dummy.config, you can utilize the following
    python3 leetmailer.py
    ```
 
-5. Follow the prompts.
-
 ---
 
 #### Things to do
