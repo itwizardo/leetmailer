@@ -34,7 +34,7 @@ Key Features:
 
 #### Configuration Files
 
-Make sure you edit the dummy.config files for the subject from mail ect the mails_to_verify function will send test emails to for each new smtp server used. Used to carry inbox-rate statistics.
+Make sure you edit the dummy.config files for the subject from mail ect the `mails_to_verify:` function will send test emails to for each new smtp server used. Used to carry inbox-rate statistics.
 
 In the working directory from where the mailer will be launched, you can have as many .config-files as you like. The mailer will choose to use the config that was last edited.
 
