@@ -20,11 +20,11 @@ It is also designed to run on Linux or MacOS. I did not add socks proxy support 
 
 Key Features:
 
-IP blacklist checker
-SMTP rotation
-Removal of potentially hazardous email addresses
-Macros for personalized content
-Inbox testing capabilities
+- IP blacklist checker
+- SMTP rotation
+- Removal of potentially hazardous email addresses
+- Macros for personalized content
+- Inbox testing capabilities
 
 
 
