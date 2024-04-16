@@ -3,7 +3,9 @@
 
 
 ![image](https://github.com/itwizardo/leetmailer/assets/32465924/4447fd50-fbc6-402d-acf6-0e32e9016dd6)
+Yes, mailers differ not only in the convenience of the interface. The inbox rate depends on their internal structure.
 
+Depending on the programming language in which the mailers are written, they use different libraries to work with SMTP or, without the use of third-party libraries, they communicate with the SMTP server through raw sockets, trying to imitate popular email clients ( but usually they fail in this task with a bang).
 
 
 ### LeetMailer
