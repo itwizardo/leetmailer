@@ -1,4 +1,4 @@
-<img width="559" alt="Screenshot 2024-04-16 at 06 34 18" src="https://github.com/itwizardo/leetmailer/assets/32465924/e59c2d3c-d068-4789-ad6a-3ede258ea6cb">
+<img width="1000" alt="Screenshot 2024-04-16 at 06 34 18" src="https://github.com/itwizardo/leetmailer/assets/32465924/e59c2d3c-d068-4789-ad6a-3ede258ea6cb">
 
 
 
