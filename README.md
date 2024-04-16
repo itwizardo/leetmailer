@@ -1,4 +1,9 @@
-![image](https://github.com/itwizardo/leetmailer/assets/32465924/3f15e197-9e94-4583-be31-38225051671b)
+<img width="559" alt="Screenshot 2024-04-16 at 06 34 18" src="https://github.com/itwizardo/leetmailer/assets/32465924/e59c2d3c-d068-4789-ad6a-3ede258ea6cb">
+
+
+
+![image](https://github.com/itwizardo/leetmailer/assets/32465924/4447fd50-fbc6-402d-acf6-0e32e9016dd6)
+
 
 
 ### LeetMailer
