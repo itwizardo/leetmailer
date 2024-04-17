@@ -30,7 +30,7 @@ Key Features:
 - Macros for personalized content
 - Inbox testing capabilities
  
-#### Usage 
+#### Usage for the smtpchecker check if your email base is valid
 - upload your email:pass to `emailpass.txt` then run the `leetchecker.py`
 -  ```
    python3 leetchecker.py youremail@watever.com 
