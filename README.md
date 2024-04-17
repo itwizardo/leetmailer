@@ -29,8 +29,9 @@ Key Features:
 - Removal of potentially hazardous email addresses
 - Macros for personalized content
 - Inbox testing capabilities
-
-
+ 
+#### Usage 
+- upload your email:pass to `emailpass.txt` then run the `smtpmaker.py` this will make the correct smtp format.
 
 #### Configuration Files
 
