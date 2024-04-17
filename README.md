@@ -31,9 +31,17 @@ Key Features:
 - Inbox testing capabilities
  
 #### Usage for the smtpchecker check if your email base is valid
+All you need is __python3__ and __psutil & dnspython__ modules installed (script will try to install missing modules by itself, anyway).
+On CentOS you may need to install missing modules by hand:
+```
+sudo yum install python-devel
+sudo yum install python-requests
+sudo yum install python-psutil
+sudo yum install python-dns
+```
 - upload your email:pass to `emailpass.txt` then run the `leetchecker.py`
 -  ```
-   python3 leetchecker.py youremail@watever.com 
+   python3 leetchecker.py /root/leetmailer/emailpass.txt youremail@watever.com 
    ```
 #### Configuration Files
 
