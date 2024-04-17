@@ -403,7 +403,7 @@ def get_random_name():
 
 def load_config():
 	global config, smtp_pool_array, threads_count
-	head_name = 'madcatmailer'
+	head_name = 'leetmailer'
 	temp_config = configparser.ConfigParser({
 		'smtps_list_file': '',
 		'mails_list_file': '',
