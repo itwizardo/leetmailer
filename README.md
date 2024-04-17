@@ -31,8 +31,10 @@ Key Features:
 - Inbox testing capabilities
  
 #### Usage 
-- upload your email:pass to `emailpass.txt` then run the `smtpmaker.py` this will make the correct smtp format.
-
+- upload your email:pass to `emailpass.txt` then run the `smtpmaker.py`
+-  ```
+   python3 leetchecker.py youremail@watever.com 
+   ```
 #### Configuration Files
 
 Make sure you edit the dummy.config files for the subject from mail ect the `mails_to_verify:` function will send test emails to for each new smtp server used. Used to carry inbox-rate statistics.
