@@ -41,7 +41,7 @@ sudo yum install python-dns
 ```
 - upload your email:pass to `emailpass.txt` then run the `leetchecker.py`
 -  ```
-   python3 leetchecker.py /leetmailer/emailpass.txt youremail@watever.com 
+   python3 leetchecker.py /root/leetmailer/emailpass.txt youremail@watever.com 
    ```
 #### Configuration Files
 
