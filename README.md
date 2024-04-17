@@ -31,7 +31,7 @@ Key Features:
 - Inbox testing capabilities
  
 #### Usage 
-- upload your email:pass to `emailpass.txt` then run the `smtpmaker.py`
+- upload your email:pass to `emailpass.txt` then run the `leetchecker.py`
 -  ```
    python3 leetchecker.py youremail@watever.com 
    ```
