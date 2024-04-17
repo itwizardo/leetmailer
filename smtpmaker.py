@@ -8,7 +8,8 @@ def get_smtp_server(email, smtp_mappings):
         smtp_mappings[domain] = smtp_server  # Remember this server for any future references
         return smtp_server
 
-def process_emails(file_path):
+def process_emails():
+    file_path = 'emailpass.txt'
     output_lines = []
     smtp_mappings = {
   "gmail.com": "smtp.gmail.com",
@@ -64,7 +65,7 @@ def process_emails(file_path):
                 output_line = f"{smtp_server}|{port}|{email}|{password}"
                 output_lines.append(output_line)
     except FileNotFoundError:
-        print("The file was not found. Check the file path and try again.")
+        print("File 'emailpass.txt' not found. Please make sure it is in the current directory.")
         return
     except Exception as e:
         print(f"An error occurred: {e}")
@@ -81,5 +82,4 @@ def process_emails(file_path):
     print("Processing complete. Output saved to 'smtpcomplete.txt'.")
 
 if __name__ == "__main__":
-    file_path = input("Enter the path of your text file: ")
-    process_emails(file_path)
+    process_emails()
