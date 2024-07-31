@@ -22,7 +22,7 @@ mailing_services = r'amazon|elastic|sendinblue|twilio|sendgrid|mailgun|netcore|p
 no_read_receipt_for = r'@(web\.de|gmx\.[a-z]{2,3}|gazeta\.pl|wp\.pl|op\.pl|interia\.pl|onet\.pl|spamtest\.glockdb\.com)$'
 glock_json_response_url = 'https://app.prod.glockapps.com/api/v1/GetSingleTestResults?ExternalUserId=st-3-'
 glock_report_url = 'https://glockapps.com/inbox-email-tester-report/?uid=st-3-'
-dummy_config_path = 'https://raw.githubusercontent.com/itwizardo/leetmailer/main/dummy.config'
+dummy_config_path = 'https://raw.githubusercontent.com/aels/mailtools/main/mass-mailer/dummy.config'
 text_extensions = 'txt|html|htm|mhtml|mht|xhtml|svg'.split('|')
 
 requests.packages.urllib3.disable_warnings()
