@@ -107,8 +107,8 @@ In the `letter.html` template or the `dummy.config`, you can utilize the followi
 
 ---
 
-#### Things to do
-
+#### Things to do / Error
+Rememeber to not leave spaces in the .txt folders on the end
 Ensure to update GlockApp for inbox placement tracking.
 
 ---
